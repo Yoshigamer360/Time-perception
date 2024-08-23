@@ -1,10 +1,7 @@
-# When I was __ years old, __ weeks/months/years feels for a __ years old as long as __ weeks/months/years 
+print('When I was __ years old, __ weeks/months/years feels as long as __ weeks/months/years as a __ years old')
+print('Fill in the blanks\n')
 
-print('Fill in the blanks in order')
-#10 1y 10y 100
-
-oldYear = int(input('When I was __ years old: '))
-oldTimecount = int(input('__ weeks/months/years: '))
-oldTimemeasurement = input('A) Weeks, B) Months, C) Years: ')
-
-
+previousAge = int(input('When I was __ years old: '))
+previousTimeCount = int(input('__ weeks/months/years: '))
+timemeasurement = input('A) Weeks, B) Months, C) Years: ').lower()
+currentAge = int(input('Your current age: '))
