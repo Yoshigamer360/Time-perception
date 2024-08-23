@@ -19,3 +19,5 @@ elif timemeasurement == 'c':
     fractionOfLife = 1 / (previousAge / previousTimeCount)
     currentTimeCount = currentAge * fractionOfLife
     print(f'When I was {previousAge} years old, {previousTimeCount} years feels as long as {currentTimeCount} years for a {currentAge} year old')
+else:
+    print('You made an error! When it asks you "A) Weeks, B) Months, C) Years:" enter the letter a or b or c')
