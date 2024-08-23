@@ -10,3 +10,7 @@ if timemeasurement == 'a':
     fractionOfLife = 1 / (previousAge * 52 / previousTimeCount)
     currentTimeCount = currentAge * 52 * fractionOfLife
     print(f'When I was {previousAge} years old, {previousTimeCount} weeks feels as long as {currentTimeCount} weeks for a {currentAge} year old')
+elif timemeasurement == 'b':
+    fractionOfLife = 1 / (previousAge * 12 / previousTimeCount)
+    currentTimeCount = currentAge * 12 * fractionOfLife
+    print(f'When I was {previousAge} years old, {previousTimeCount} months feels as long as {currentTimeCount} months for a {currentAge} year old')
