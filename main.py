@@ -1,4 +1,4 @@
-# When I was __ years old, __ weeks/months/years feels as long as __ weeks/months/years as a __ years old
+# When I was __ years old, __ weeks/months/years feels for a __ years old as long as __ weeks/months/years 
 
 print('Fill in the blanks in order')
 #10 1y 10y 100
