@@ -1,4 +1,4 @@
-print('When I was __ years old, __ weeks/months/years feels as long as __ weeks/months/years as a __ years old')
+print('When I was __ years old, __ weeks/months/years feels as long as __ weeks/months/years for a __ years old')
 print('Fill in the blanks\n')
 
 previousAge = int(input('When I was __ years old: '))
